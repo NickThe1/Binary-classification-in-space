@@ -4,11 +4,17 @@
 
 ### However, the real data is a thousand times larger and confirms the theoretical distribution of ordinary and dwarf galaxies. Thus oversampling is needed.
 
+![img.png](img.png)
+
+### Best result
+![img_1.png](img_1.png)
+
 ### Applied
 
 - Feature engineering
 - Oversampling methods: ADASYN, SMOTE, BorderSMOTE, Smoothing bootstrap
 - Scaling Standatd, Robust
+- Hyperparams tuning
 - Machine learning algorithms
     - 2 Fully connected neural network
     - CatBoost (with feature engineering and without)
